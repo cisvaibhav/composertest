@@ -1,1 +1,20 @@
 
+{
+  "name": "cisvaibhav/composertest",
+  "description" : "Repo for Choba.",
+  "minimum-stability": "dev",
+  "require": {
+    "vaibhav892/choba-theme": "master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:vaibhav892/choba-theme.git"
+    }   
+  ],
+    "extra":{
+      "magento-force": "override",
+      "magento-root-dir": "./",
+      "magento-deploystrategy": "link"
+  }
+}
